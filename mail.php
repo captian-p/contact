@@ -17,7 +17,7 @@ $subject = "Mail From lover";
 $txt="Name = ". $name . "\r\n Email = ". $email . "\r\n Message = ". $message . "\r\n Mobile number = ". $number .;
 
 
-$headers = "From: noreply@yoursite.com" . "\r\n". "CC: somebodyelse@example.com";
+$headers = "From: hitmovies2455@gmail.com" . "\r\n". "CC: hitmovies2455@gmail.com";
 
 if($email!=NULL){ 
     mail($to, $subject, $txt, $headers);
