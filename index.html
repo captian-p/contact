@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- =====BOX ICONS===== -->
+    <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
+    <title>Contact-me</title>
+
+</head>
+
+<body>
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <form action="mail.php" class="contact__form">
+                <input type="text" name="name" placeholder="Name" class="contact__input">
+                <input type="tel" name="mobile" placeholder="Mobile No" class="contact__input">
+
+                <input type="mail" name="email" placeholder="Email" class="contact__input">
+                <textarea name="message" id="" cols="0" rows="8" placeholder="Write what you want to write"
+                    class="contact__input"></textarea>
+                <!-- <input type="button" value="Send" class="contact__button button"> -->
+                <button type="submit" value="Send" class="contact__button button">Send</button>
+
+            </form>
+        </div>
+    </section>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        function sendEmail(){
+            Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "coyigic274@vasqa.com",
+            Password: "21844E8652BC584138A345A727BA9AD2D3E9",
+            To: 'patelmovies2455@gmail.com',
+            From: document.getElementById("email").value,
+            Subject: "hello....",
+            Body: "hello i am user"
+        }).then(
+            message => alert(message)
+        );
+    }
+    </script>
+ -->
+
+
+</body>
+
+</html>
